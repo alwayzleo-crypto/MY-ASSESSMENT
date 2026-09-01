@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 30px;
+    animation: circle 2s infinite;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 30px;
+    animation: square 2s infinite;
+}
+
+.rectangle {
+    width: 150px;
+    height: 80px;
+    background-color: green;
+    margin: 30px;
+    animation: rectangle 2s infinite;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid purple;
+    margin: 30px;
+    animation: triangle 2s infinite;
+}
+
+
+/* Circle animation */
+@keyframes circle {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(200px);
+        background-color: yellow;
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/* Square animation */
+@keyframes square {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Rectangle animation */
+@keyframes rectangle {
+    0% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+
+/* Triangle animation */
+@keyframes triangle {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
