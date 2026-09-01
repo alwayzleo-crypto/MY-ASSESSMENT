@@ -1,0 +1,155 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+.news-page {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+/* Breaking News */
+.breaking-news {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* Article */
+main h2 {
+    font-size: 30px;
+}
+
+.article-text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.purple {
+    color: purple;
+}
+
+/* Quote */
+.quote-box {
+    border: 2px solid green;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.quote {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.author {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Facts */
+.facts {
+    display: flex;
+    margin-top: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.fact {
+    width: 33%;
+    padding: 10px;
+}
+
+.fact-one h3 {
+    color: blue;
+}
+
+.fact-two h3 {
+    color: purple;
+}
+
+.fact-three h3 {
+    color: green;
+}
+
+.fact p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Warning */
+.warning {
+    background-color: pink;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.warning-title {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.warning-text {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Bonus */
+.bonus {
+    border: 2px dashed orange;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.bonus h3 {
+    color: brown;
+}
+
+.bonus-blue {
+    color: blue;
+}
+
+.bonus-black {
+    color: black;
+}
+
+.bonus-red {
+    color: red;
+}
+
+.bonus-green {
+    color: green;
+}
+
+.bonus-purple {
+    color: purple;
+}
