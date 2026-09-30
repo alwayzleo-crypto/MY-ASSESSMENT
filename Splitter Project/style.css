@@ -1,0 +1,65 @@
+body {
+  font-family: monospace;
+  background: #c5e4e7;
+  text-align: center;
+}
+
+.card {
+  width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
+
+.inputs, .results {
+  flex: 1;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0 16px;
+  background: #f3f9fa;
+  border: none;
+}
+
+.tips button {
+  width: 30%;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #00474b;
+  color: #ffffff;
+  border: none;
+}
+
+.tips input {
+  width: 30%;
+}
+
+.results {
+  background: #00474b;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.row strong {
+  color: #26c2ae;
+  font-size: 30px;
+}
+
+.reset {
+  width: 100%;
+  padding: 10px;
+  background: #0d686d;
+  color: #00474b;
+  border: none;
+}

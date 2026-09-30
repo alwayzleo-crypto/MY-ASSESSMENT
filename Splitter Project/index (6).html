@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Splitter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="logo">SPLI<br>TTER</h1>
+
+  <main class="card">
+    <section class="inputs">
+      <label for="bill">Bill</label>
+      <input id="bill" type="number" placeholder="0">
+
+      <label>Select Tip %</label>
+      <div class="tips">
+        <button>5%</button>
+        <button>10%</button>
+        <button>15%</button>
+        <button>25%</button>
+        <button>50%</button>
+        <input type="number" placeholder="Custom">
+      </div>
+
+      <label for="people">Number of People</label>
+      <input id="people" type="number" placeholder="0">
+    </section>
+
+    <section class="results">
+      <div class="row">
+        <p>Tip Amount<span>/ person</span></p>
+        <strong>$0.00</strong>
+      </div>
+      <div class="row">
+        <p>Total<span>/ person</span></p>
+        <strong>$0.00</strong>
+      </div>
+      <button class="reset">RESET</button>
+    </section>
+  </main>
+</body>
+</html>
