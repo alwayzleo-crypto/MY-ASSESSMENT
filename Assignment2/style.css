@@ -1,0 +1,141 @@
+body{
+     background: #0a0a0a;
+     color: white;
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+}
+@media (max-width: 768px){
+.section-1{
+     width: 710px;
+     margin: 0 auto;
+}
+.brands{
+     width: 710px;
+     margin: 0 auto;
+}
+.The-image{
+     width: 710px;
+     margin: 0 auto;
+}
+.page-row{
+     width: 710px;
+     margin: 0 auto;
+}
+.page{
+     width: 710px;
+     margin: 0 auto;
+}
+
+h1{
+     font-family: Georgia, serif;
+     font-weight: normal;
+     font-size: 44px;
+     line-height: 1.15;
+     width: 450px;
+     margin: 30px 0 20px 0;
+}
+h2{
+     font-family: Georgia, serif;
+     font-weight: normal;
+     font-size: 26px;
+     margin: 0 0 12px 0;
+}
+
+p{
+     color: #a9adb8;
+     font-size: 14px;
+     margin: 0 0 18px 0;
+}
+
+a{
+     color: #a9adb8;
+     font-size: 14px;
+     text-decoration: none;
+     margin: 0 10px;
+}
+img{
+     width: 335px;
+     height: 190px;
+     object-fit: cover;
+     display: block;
+}
+.row-top{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 25px 0;
+}
+.row-top p{
+     margin: 0;
+}
+
+
+.button{
+     background: #fde047;
+     color: black;
+     padding: 10px 22px;
+     margin: 0;
+     display: inline-block;
+}
+
+.head{
+     width: 400px;
+}
+
+
+.brands{
+     display: flex;
+     justify-content: space-between;
+}
+
+.The-image{
+     display: flex;
+     justify-content: space-between;
+}
+
+.page-row{
+     display: flex;
+     justify-content: space-between;
+}
+
+.brands{
+     margin-top: 60px;
+     margin-bottom: 60px;
+     color: #8b8f9a;
+     font-weight: bold;
+     font-size: 18px;
+}
+
+.The-image{
+     padding-bottom: 70px;
+}
+.The-image h2::after{
+     content: " →";
+}
+
+.half{
+     width: 335px;
+}
+.section-3{
+     background: #272a35;
+     padding: 70px 0;
+}
+
+.contact{
+     padding: 70px 0;
+}
+
+
+.footer{
+     background: #272a35;
+     padding: 20px 0;
+}
+.footer .page-row{
+     align-items: center;
+}
+.logo{
+     font-family: Georgia, serif;
+     color: white;
+}
+}
